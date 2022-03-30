@@ -4,7 +4,7 @@ import { useContext,useState,useRef } from 'react';
 import { Context } from "../../context/Context";
 import {UpdateStart, UpdateSuccess, UpdateFailure, Logout} from "../../context/Actions";
 import axios from "axios";
-import { axiosInstance } from '../../../config';
+import { axiosInstance } from "../../config";
 
 export default function Settings() {
   const PF = "https://daffodil-blog.herokuapp.com/images/";

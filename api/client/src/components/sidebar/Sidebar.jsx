@@ -2,7 +2,7 @@ import "./sidebar.css";
 import {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { axiosInstance } from "../../../config";
+import { axiosInstance } from "../../config";
 
 export default function Sidebar() {
     const [cats, setCats] = useState([]);

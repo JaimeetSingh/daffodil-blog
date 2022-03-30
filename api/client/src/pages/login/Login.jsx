@@ -4,7 +4,7 @@ import { useContext, useRef, useState } from 'react';
 import { Context } from '../../context/Context';
 import { LoginStart, LoginSuccess, LoginFailure } from '../../context/Actions';
 import axios from 'axios';
-import { axiosInstance } from '../../../config';
+import { axiosInstance } from "../../config";
 
 export default function Login() {
   const userRef = useRef();
